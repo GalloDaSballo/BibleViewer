@@ -1,13 +1,30 @@
-# Easy Bible Viewer Project
-Utilizing the [database provided in this repo](https://github.com/scrollmapper/bible_databases) to create an easy-to-use Bible reader.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Building Documents
-![app diagram](public/AppDiagram.jpg)
-The general idea / spec of the project is as follows, but I will update as I get a little further along.
+## Getting Started
 
-## Technologies Used
-* [Knex](https://github.com/knex/knex)
-* [Express](https://expressjs.com/)
+First, run the development server:
 
-# Add Database
-In order to use this application, grab the most up to date sqlite database of the bible from [the scroll mapper repository](https://github.com/scrollmapper/bible_databases), and copy the `bible-sqlite.db` file into the `/data` directory of this project.
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
