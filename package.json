@@ -10,6 +10,8 @@
   "dependencies": {
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sqlite": "^4.0.12",
+    "sqlite3": "^5.0.0"
   }
 }
